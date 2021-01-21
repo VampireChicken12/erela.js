@@ -13,7 +13,7 @@ import {
   WebSocketClosedEvent,
 } from "./Utils";
 
-function check(options: NodeOptions) {
+function check(options: NodeOptions)  {
   if (!options) throw new TypeError("NodeOptions must not be empty.");
 
   if (
